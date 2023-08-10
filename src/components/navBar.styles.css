@@ -1,0 +1,65 @@
+nav.navbar {
+    /*background: linear-gradient(rgb(90, 190, 211), rgb(187, 219, 255) 67%);*/
+    background: transparent;
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+}
+
+
+nav.navbar.scrolled {
+    padding: 0 0;
+    /*background: linear-gradient(rgb(9, 40, 103), rgb(39, 18, 105) 67%);*/
+    height: 70px;
+    background: transparent;
+}
+
+/*nav.navbar a.navbar-brand {*/
+/*    width: 10%;*/
+/*    background-color: red;*/
+/*}*/
+
+#basic-navbar-nav {
+    /*background-color: red;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+    /*float: right;*/
+    /*display: inline-block;*/
+    /*align-content: center;*/
+}
+
+.nav-text{
+    /*border: 3px solid black;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    /*align-items: center;*/
+    justify-content: center;
+    /*text-align: center;*/
+    text-decoration: none;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+    opacity: 1;
+}
+
