@@ -32,8 +32,8 @@ const Projects = () => {
             imgUrl: projImg2,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Child Advocates",
+            description: "Statistic, Python, Causal inference, Survival analysis",
             projectURL: "https://www.youtube.com/watch?v=ZAxsq64Wb5Q",
             imgUrl: projImg3,
         },
